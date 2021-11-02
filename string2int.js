@@ -63,12 +63,13 @@ function string2int(word) {
                 digit--;
                 break;
             case "0":
+                digit--;
                 break;
         }
     }
     return result;
 }
 
-console.log(string2int("abc573"));
+console.log(string2int("abc5703"));
 
 console.log(string2int("a5b7c3"));
